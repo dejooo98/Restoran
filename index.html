@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Restoran MaDdoxX</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    
+
+    <!-- ANIMACIJE -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="./img/logo.png" rel="icon">
+  <link href="./img/logo.png" rel="apple-touch-icon">
+
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    
+    <!-- btn to the top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+
+     <!-- Preloader -->
+     <div class="load">
+      <hr/><hr/><hr/><hr/>
+  </div>
+        <header>
+              
+                    <!-- Mobile menu -->
+         <a href="#home" class="open-button">
+            <span></span>
+            <span></span>
+            <span></span>
+         </a>
+        <div>
+         <nav class="main-nav container">
+          <div class="main-nav-container">
+              <a href="index.html"><img src="./img/logo.png" alt="Restoran MaDdoxX logo"></a>
+              <ul class="nav-menu">
+                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="#O NAMA">O nama</a></li>
+					<li><a href="./rezervacije./reservation.php">REZERVACIJE</a></li>
+                    <li><a href="#GALERIJA">Galerija</a></li>
+                    <li><a href="./rezervacije./menu.php">Meni</a></li>
+                    <li><a href="#KONTAKT">Kontakt</a></li>
+              </ul>
+         </div> 
+        
+         
+          </nav>
+          </div>
+        <div class="banner-title"> 
+            <h1>Restoran <span>MaDdoxX</span></h1>
+            <a href="./rezervacije/reservation.php"><input type="button" value="REZERVACIJE" class="btnheder"></a>
+        </div>
+        <a href='#O NAMA'><div id="arrow-down"></div></a>
+    </header>
+
+    <!-- O nama -->
+
+<div class="about">
+    <h1 class="naslov">O nama i nasim jelima</h1>
+    <div class="border"></div>
+    <a name="O NAMA"></a>
+    <div class="about-content">
+        <p>
+        Elegantan enterijer u kombinaciji sa modernim detaljima čini MaDdoxX restoran vašim idealnim izborom. Besprekorna usluga i perfektan izbor jela garantuju pravi gastronomski užitak.
+        </p><p>
+        MaDdoxX restoran izdvaja se po predivnom pogledu na reke i grad i predstavlja opuštajuću oazu za sva Vaša čula.U jutarnjim časovima, od 7 do 10 h, restoran nudi bogato serviran doručak na bazi švedskog stola.
+         </p><p>
+        Uz  ljubazno osoblje uživaćete u svakom zalogaju, bilo da ste na poslovnom ručku ili sa prijateljima na večeri. Za prave hedoniste u ponudi je selekcija najboljih vina iz svih delova sveta, kao i veliki izbor tompusa.
+        </p><p>
+        Kapacitet restorana je 80 sedećih mesta i može se prilagoditi za razne svečanosti. Radno vreme restorana je od 7 do 23 h.
+      </p>
+      </div>
+  </div>
+  
+  
+  <!-- GALERIJA -->
+ 
+    <section class="gallery-section" id="gallery">  
+        <h1 class="galery-title">GALERIJA</h1>
+            <a name="GALERIJA"></a>
+              <div class="portfolio-filter">
+                 <a href="#" data-filter ="all" class="buttton active">Sva jela</a>
+                 <a href="#" data-filter ="dorucak" class="buttton">Doručak</a>
+                 <a href="#" data-filter ="rucak" class="buttton">Ručak</a>
+                 <a href="#" data-filter ="vecera" class="buttton">Večera</a>
+               </div>
+               <div class="food-gallery wow animated fadeIn delay-1s">
+                   <div class="filter dorucak">
+                       <a href="./img/food1.jpg" class="gallery-image "><img src="./img/food1.jpg" alt="food 1"></a>
+                   </div>
+                   <div class="filter dorucak">
+                       <a href="./img/food2.jpg" class="gallery-image"><img src="./img/food2.jpg" alt="food 2"></a>
+                   </div>
+                   <div class="filter dorucak">
+                       <a href="./img/food3.jpg" class="gallery-image"><img src="./img/food3.jpg" alt="food 3"></a>
+                   </div>
+                   <div class="filter dorucak">
+                       <a href="./img/food4.jpg" class="gallery-image"><img src="./img/food4.jpg" alt="food 4"></a>
+                   </div>
+                   <div class="filter rucak">
+                       <a href="./img/food5.jpg" class="gallery-image"><img src="./img/food5.jpg" alt="food 5"></a>
+                   </div>
+                   <div class="filter rucak">
+                       <a href="./img/food6.jpg" class="gallery-image"><img src="./img/food6.jpg" alt="food 6"></a>
+                   </div>
+                   <div class="filter vecera">
+                       <a href="./img/food7.jpg" class="gallery-image"><img src="./img/food7.jpg" alt="food 7"></a>
+                   </div>
+                   <div class="filter rucak">
+                       <a href="./img/food8.jpg" class="gallery-image"><img src="./img/food8.jpg" alt="food 8"></a>
+                   </div>
+                   <div class="filter vecera">
+                       <a href="./img/food10.jpg" class="gallery-image"><img src="./img/food10.jpg" alt="food 9"></a>
+                   </div>
+               </div>
+           </section>
+
+         
+     <!-- Meni    -->
+     <a name="MENI"></a>
+     <div class="menu">
+     <h1>Danasnja ponuda</h1>
+     <div class="border"></div>
+     <div class="row">
+        <div class="column">
+          <div class="card" id="meni">
+            <img src="./img/hrana1.jpg" alt="hrana1" style="width:100%; height:300px">
+            <div class="container">
+              <h2>Doručak</h2>
+              <p class="title">Dnevna ponuda</p>
+              <p>
+                ✓ <span class="jelotext"> Pljeskavica</span>........................................820,00
+                <br>
+                ✓ <span class="jelotext">Lovačke šnicle</span>...............................1.300,00
+                <br>
+                ✓ <span class="jelotext">Leskovačka mućkalica sa telećim mesom</span>............1.350,00
+                <br>
+                ✓ <span class="jelotext">Gurmanski stek punjen dimljenim sirom</span>............1.570,00
+                <br>
+                ✓ <span class="jelotext">Teleći kotleti sa pečurkama</span>...........................1.600,00
+              </p>
+              <p>Porucite odmah klikom na dugme ispod</p>
+              <a href="./rezervacije/menu.php"><p><button class="button">POGLEDAJTE OPSIRNIJE</button></p></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="./img/hrana2.jpg" alt="hrana2" style="width:100%; height:300px">
+            <div class="container">
+              <h2>Ručak</h2>
+              <p class="title">Dnevna ponuda</p>
+              <p>
+                ✓ <span class="jelotext"> Pljeskavica</span>........................................820,00
+                <br>
+                ✓ <span class="jelotext">Lovačke šnicle</span>...............................1.300,00
+                <br>
+                ✓ <span class="jelotext">Leskovačka mućkalica sa telećim mesom</span>............1.350,00
+                <br>
+                ✓ <span class="jelotext">Gurmanski stek punjen dimljenim sirom</span>............1.570,00
+                <br>
+                ✓ <span class="jelotext">Teleći kotleti sa pečurkama</span>...........................1.600,00
+              </p>
+              <p>Porucite odmah klikom na dugme ispod</p>
+              <a href="./rezervacije/menu.php"><p><button class="button">POGLEDAJTE OPSIRNIJE</button></p></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column" id="meni2">
+          <div class="card">
+            <img src="./img/hrana3.jpg" alt="hrana3" style="width:100%; height:300px">
+            <div class="container">
+              <h2>Večera</h2>
+              <p class="title">Dnevna ponuda</p>
+              <p>
+                ✓ <span class="jelotext"> Pljeskavica</span>........................................820,00
+                <br>
+                ✓ <span class="jelotext">Lovačke šnicle</span>...............................1.300,00
+                <br>
+                ✓ <span class="jelotext">Leskovačka mućkalica sa telećim mesom</span>............1.350,00
+                <br>
+                ✓ <span class="jelotext">Gurmanski stek punjen dimljenim sirom</span>............1.570,00
+                <br>
+                ✓ <span class="jelotext">Teleći kotleti sa pečurkama</span>...........................1.600,00
+              </p>
+              <p>Porucite odmah klikom na dugme ispod</p>
+              <a href="./rezervacije/menu.php"><p><button class="button">POGLEDAJTE OPSIRNIJE</button></p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="download-link">
+        <a href="http://www.restorankovac.com/wp-content/uploads/2020/03/jelovnik-Kovač-1.pdf">NAS KOMPLETAN MENI</a>
+    </div>
+    </div>
+
+    <!-- Preporuke -->
+    <div class="testimonials">
+        <div class="inner">
+            <h1>Preporuke</h1>
+            <div class="border"></div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="./img/p1.jpg" alt="">
+                        <div class="name">Mladen Filipović
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <p>
+                            “Prijatan ambijent, uz vruhnsku uslugu i ljubaznost zaposlenih, hrana na nivou i skroz korektne cene, za svačiji džep.”                        
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="./img/p2.jpg" alt="">
+                        <div class="name">Jovana Marković
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <p>“Od mene čista 10-ka :)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="./img/p3.jpg" alt="">
+                        <div class="name">Jovana Ilić</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <p class="blocqote">
+                            "Najbolja hrana u gradu! Preporučujem svima da dođu i probaju!"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rezervacije -->
+    
+    <a name="KONTAKT"></a>
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+          <div class="contact-left wow animated fadeInLeft delay-1s">
+              <h2>KONTAKT PODACI</h2>
+              <p>Radno vrijeme restorana od 7:00h do 23:00h!</p>
+              <div class="contact-info">
+                <i class="fa fa-phone"></i>
+                  <p>+387 (66) 237 432<br> +381 (64) 24 54 228</p>
+              </div>    
+              <div class="contact-info">
+                <i class="fa fa-envelope"></i>
+                  <a href="mailto:dejan98vgd@gmail.com">dejan98vgd@gmail.com</a>
+              </div>    
+              <div class="contact-info">
+                  <i class="fa fa-map-marker"></i>
+                  <p>Nikole Pasica 10 73240 <br> Visegrad</p>
+              </div>    
+          </div>
+          <div class="contact-right wow animated fadeInRight delay-1s">
+              <!-- <form action="https://submit-form.com/C_6-62A6-IHDUfsqaHuBx" target="_self"> -->
+                <form action="./kontaktForma/form.php" method="POST">
+                  <input type="text" name="ime" id="name" placeholder="Vase ime" required>
+                  <input type="text" name="prezime" id="prezime" placeholder="Vase prezime" required>
+                  <input type="text" name="adresa" id="adresa" placeholder="Vasa adresa" required>
+                  <input type="email" name="email" id="mail" placeholder="Vas email" required>
+                  <textarea name="poruka" id="message" rows="3" placeholder="Poruka" required></textarea>
+                 <button>Posalji <i class="icon-arrow-right2"></i></button>
+              </form>
+          </div>
+      </div>
+  </section>
+
+    <!-- Futer -->
+    
+    <footer class="footer-distributed">
+ 
+        <div class="footer-left">
+      <img src="img/logo.png">
+            <h3>Restoran<span>MaDdoxX</span></h3>
+
+            <p class="footer-links">
+                <a href="#POCETNA">POCETNA</a>
+               
+            </p>
+
+            <p class="footer-company-name">© 2020 Copyrights</p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                  <p><span>Ulica: Nikole Pasica br. 10</span>
+                    Visegrad, Bosna i Hercegovina - 73240</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+387 (66) 237 432</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:dejan98vgd@gmail.com">dejan98vgd@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Za vise detalja, mozete nam se obratiti na linkove ispod</span>
+             </p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/dejan98vgdgmailcom"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/dejooo0/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
